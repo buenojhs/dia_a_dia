@@ -36,7 +36,3 @@ def calcular_ganho_mensal():
     return ganho_total_mensal
 
 print(calcular_ganho_mensal())
-
-
-
-
