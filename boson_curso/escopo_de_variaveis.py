@@ -6,7 +6,7 @@
 var_global = "Curso Completo de Python"
 
 def escreve_texto():
-    global var_global #nesse caso altera o conteudo da variavel global de dentro de uma funcao
+    #global var_global #nesse caso altera o conteudo da variavel global de dentro de uma funcao
     var_global = "Bancos de Dados com SQL" #nesse caso ele altera a "variavel global" apenas dentro dessa funcao e nao a de fora(a global de fato)
     var_local = "Jorge Henrique"
     print(f'Variável Global: {var_global}')
