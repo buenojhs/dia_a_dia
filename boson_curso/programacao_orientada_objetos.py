@@ -6,3 +6,4 @@ class Veiculo:
         print(f'Sou um veículo e me desloco!')
 
     def __init__(self)
+
